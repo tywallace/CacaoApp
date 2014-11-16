@@ -5,3 +5,5 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Price.create "region" => "Manabi", "date" =>
+Date.new(2014, 11, 14), "price" => 22

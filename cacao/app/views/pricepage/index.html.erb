@@ -14,5 +14,10 @@
 			<h3>Your weather forecast:</h3>
 			<%= image_tag "forecast_image.jpg"%>
 		</div>
+		<% for price in @prices %>
+			<h2><%= price.region %></h2>
+			<p><%= price.date %></p>
+			<p>$<%= price.price %> per unit</p>
+		<% end %>
 	</body>
 </html>

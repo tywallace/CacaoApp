@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  region: MyString
+  date: 2014-11-16
+  price: 1
+
+two:
+  region: MyString
+  date: 2014-11-16
+  price: 1
