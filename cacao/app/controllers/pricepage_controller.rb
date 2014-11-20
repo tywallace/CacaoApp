@@ -4,7 +4,7 @@ class PricepageController < ApplicationController
 	end
 
 	def show
-		@price = Price.where("region = ?", params[id])
+		@prices = Price.all
 	end
 end
 
